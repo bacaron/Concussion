@@ -1,4 +1,4 @@
-function save_tracts_fxn(subj, bvals)
+function one0save_tracts_fxn(subj, bvals)
 % This function will save down the fiber tracts segmented from AFQ into a .mat file which can then be used to view fibers overlayed over T1.
 %
 % Input is subject name and bvals.  Output are folders for each different AFQ segmentation (with life, sans life, deterministic, probabilistic) and .mat files of the fibers.
