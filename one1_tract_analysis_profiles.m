@@ -1,4 +1,4 @@
-function tract_analysis_profiles(subj, bvals, fiberFile, tract)
+function one1_tract_analysis_profiles(subj, bvals, fiberFile, tract)
 % Tract Analysis.
 %
 % This script is an example of analysis of tracts that uses the profile of the tracts
