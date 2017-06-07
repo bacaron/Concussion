@@ -1,4 +1,4 @@
-function zero_5_make_wm_mask(subj,bvals)
+function zero5_make_wm_mask(subj,bvals)
 % This script makes the white-matter mask to be used for seed generation in mrtrix tracking.
 %
 % Caiafa and Pestilli Manuscript.
