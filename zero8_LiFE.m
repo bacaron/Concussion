@@ -1,4 +1,4 @@
-function zero_8_LiFE(subj, bvals)
+function zero8_LiFE(subj, bvals)
 %
 % LiFE function (Pestilli et al, 2014, Nature Methods).  This will evaluate ensemble connectome generated from 
 % ensemble_connectome_generator.m (github.com/brain-life/pestillilab-projects/Concussion/zero7_ensemble_connectome_generator.m).
