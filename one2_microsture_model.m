@@ -18,7 +18,7 @@ stem = strcat('data','_','b',bvals,'_','aligned','_','trilin','_','noMEC') 'data
 %% Build the file names for the diffusion data, the anatomical MRI.
 dwiFile       = fullfile(dataRootPath, subj, 'diffusion_data', bvals, 'dt6', 'data_b1000_aligned_trilin_noMEC.nii.gz');
 t1File        = fullfile(dataRootPath, subj, 'diffusion_data', 't1_acpc.nii.gz'];
-fgFileName    = fullfile(dataRootPath, subj, 'diffusion_data', bvals, 'major_tracts', 'data_b1000_aligned_trilin_noMEC_ensemble.mat'];
+fgFileName    = fullfile(dataRootPath, subj, 'diffusion_data', bvals, 'major_tracts', major_tracts_brainmask_full_ensemble', 'data_b1000_aligned_trilin_noMEC_ensemble.mat'];
 %%feFileName    = strcat(subject,'_',alg,'_',param,'_',conn);
 feFileName    = strcat(subj,'_',stem,'_','ensemble','_','FE');
 
