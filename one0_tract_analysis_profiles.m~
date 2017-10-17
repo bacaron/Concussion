@@ -24,7 +24,7 @@ dt = dtiLoadDt6( dt6path );
 fg = fg_classified( tract );
 
 % 2. compute the core fiber from the fiber group (the tact profile is computed here)
-[fa, md, rd, ad, cl, SuperFile, fgClipped, cp, cs, fgResampled] = dtiComputeDiffusionPropertiesAlongFG( fg, dt,[],[],200);
+[fa, md, rd, ad, cl, core, fgResampled] = dtiComputeDiffusionPropertiesAlongFG( fg, dt,[],[],200);
 
 % 3. Select a center portion fo the tract and show the FA and MD values 
 % normally we only use for analyses the middle most reliable portion of the fiber.
